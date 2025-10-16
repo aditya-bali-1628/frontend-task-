@@ -1,0 +1,12 @@
+/* /styles/globals.css */
+
+/* Reset / base styles */
+@import "tailwindcss/preflight";
+
+/* Only utilities are needed now */
+@tailwind utilities;
+
+/* Optional custom styles */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
